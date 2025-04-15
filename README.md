@@ -133,12 +133,11 @@
   <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
 </div>
 
-<!-- Spotify Now Playing -->
+<!-- Spotify Now Playing Alternative -->
 <div align="center">
-  <h3>🎧 Spotify Now Playing</h3>
-  <a href="https://open.spotify.com/user/3154wq5hhwuuwq6wnrlfjrjyeu2q">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=3154wq5hhwuuwq6wnrlfjrjyeu2q&count=1" alt="Spotify Recently Played" width="400" />
-  </a>
+  <h3>🎧 My Spotify</h3>
+  
+  [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=3154wq5hhwuuwq6wnrlfjrjyeu2q&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212)](https://spotify-github-profile.vercel.app/api/view?uid=3154wq5hhwuuwq6wnrlfjrjyeu2q&redirect=true)
 </div>
 
 <!-- Quote -->
