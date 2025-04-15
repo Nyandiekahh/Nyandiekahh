@@ -84,25 +84,25 @@
 <div align="center">
   <h3>Skill Proficiency</h3>
   
-  **Python** ![Progress](https://progress-bar.dev/90/?width=200&color=FF5733)  
-  **JavaScript** ![Progress](https://progress-bar.dev/85/?width=200&color=FF5733)  
-  **Django** ![Progress](https://progress-bar.dev/90/?width=200&color=FF5733)  
-  **React.js** ![Progress](https://progress-bar.dev/85/?width=200&color=FF5733)  
-  **Next.js** ![Progress](https://progress-bar.dev/80/?width=200&color=FF5733)  
-  **Flask** ![Progress](https://progress-bar.dev/75/?width=200&color=FF5733)  
-  **Mechatronics** ![Progress](https://progress-bar.dev/80/?width=200&color=FF5733)  
+  **Python** <img src="https://progress-bar.dev/90/?width=200&color=FF5733" alt="Python 90%" />  
+  **JavaScript** <img src="https://progress-bar.dev/85/?width=200&color=FF5733" alt="JavaScript 85%" />  
+  **Django** <img src="https://progress-bar.dev/90/?width=200&color=FF5733" alt="Django 90%" />  
+  **React.js** <img src="https://progress-bar.dev/85/?width=200&color=FF5733" alt="React.js 85%" />  
+  **Next.js** <img src="https://progress-bar.dev/80/?width=200&color=FF5733" alt="Next.js 80%" />  
+  **Flask** <img src="https://progress-bar.dev/75/?width=200&color=FF5733" alt="Flask 75%" />  
+  **Mechatronics** <img src="https://progress-bar.dev/80/?width=200&color=FF5733" alt="Mechatronics 80%" />  
 </div>
 
 <!-- Activity Graph -->
 <h2 align="center">📈 Contribution Activity 📈</h2>
 
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Nyandiekahh&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=FFFFFF&line=FF5733&point=FFD700)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nyandiekahh&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=FFFFFF&line=FF5733&point=FFD700" alt="Activity Graph" width="95%" />
+</div>
 
 <!-- GitHub Profile Views Counter -->
 <div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=Nyandiekahh&color=FF5733&style=flat-square)
-  
+  <img src="https://komarev.com/ghpvc/?username=Nyandiekahh&color=FF5733&style=flat-square" alt="Profile Views" />
 </div>
 
 <!-- Connect With Me Section -->
@@ -124,7 +124,7 @@
 <div align="center">
   <h2>🐍 Watch my contribution graph get eaten by the snake 🐍</h2>
   
-  ![Snake animation](https://github.com/Nyandiekahh/Nyandiekahh/blob/output/github-contribution-grid-snake.svg)
+  <img src="https://github.com/Nyandiekahh/Nyandiekahh/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" width="95%" />
 </div>
 
 <!-- Fun Footer -->
@@ -135,9 +135,9 @@
 
 <!-- Spotify Now Playing -->
 <div align="center">
-  
-  ![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=Nyandiekahh&cover_image=true&theme=novatorem)
-  
+  <a href="https://spotify-github-profile.vercel.app/api/view?uid=Nyandiekahh&redirect=true">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=Nyandiekahh&cover_image=true&theme=novatorem" alt="Spotify Now Playing" />
+  </a>
 </div>
 
 <!-- Quote of the day -->
