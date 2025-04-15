@@ -43,12 +43,25 @@
 <h2 align="center">🚀 Current Projects 🚀</h2>
 
 <div align="center">
-  <a href="https://github.com/Nyandiekahh/sacco-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nyandiekahh&repo=sacco-project&theme=radical&hide_border=true&title_color=FF5733&icon_color=FFD700&bg_color=0D1117" />
-  </a>
-  <a href="https://github.com/Nyandiekahh/task-management-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nyandiekahh&repo=task-management-app&theme=radical&hide_border=true&title_color=FF5733&icon_color=FFD700&bg_color=0D1117" />
-  </a>
+  <div>
+    <h3>Sacco Management System</h3>
+    <p><em>A comprehensive financial management system for savings and credit cooperatives.</em></p>
+    <p>
+      <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    </p>
+  </div>
+  
+  <div class="mt-4">
+    <h3>Task Management Application</h3>
+    <p><em>A productivity application for organizing and tracking tasks and projects.</em></p>
+    <p>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    </p>
+  </div>
 </div>
 
 <!-- Skills Section with Animation -->
