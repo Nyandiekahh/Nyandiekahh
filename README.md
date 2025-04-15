@@ -135,9 +135,20 @@
 
 <!-- Spotify Now Playing -->
 <div align="center">
-  <a href="https://spotify-github-profile.vercel.app/api/view?uid=Nyandiekahh&redirect=true">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=Nyandiekahh&cover_image=true&theme=novatorem" alt="Spotify Now Playing" />
+  <h3>🎧 Spotify Now Playing</h3>
+  <a href="https://open.spotify.com/user/3154wq5hhwuuwq6wnrlfjrjyeu2q">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=3154wq5hhwuuwq6wnrlfjrjyeu2q&count=1" alt="Spotify Recently Played" width="400" />
   </a>
+</div>
+
+<!-- Quote -->
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  
+  <blockquote>
+    <p><i>"Never memorize something that you can look up."</i></p>
+    <p align="right">- Albert Einstein</p>
+  </blockquote>
 </div>
 
 <!-- Quote of the day -->
