@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 21ch;
+      }
+    }
+    
+    .text-container {
+      display: inline-block;
+      border-right: 0.15em solid #FF5733;
+      white-space: nowrap;
+      overflow: hidden;
+      letter-spacing: 0.05em;
+      animation: typing 3.5s steps(40, end), blink 1s step-end infinite;
+    }
+    
+    #text {
+      font-family: monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #FFFFFF;
+    }
+    
+    #cursor {
+      font-family: monospace;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #FF5733;
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+  
+  <rect width="100%" height="100%" fill="#0D1117" />
+  
+  <!-- The text that appears to be typing -->
+  <text x="200" y="50" id="text" class="text-container">Hello, I'm Einstein!</text>
+  <text x="450" y="50" id="cursor">|</text>
+</svg>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes gradientAnimation {
+      0% {
+        stop-color: #FF5733;
+      }
+      50% {
+        stop-color: #FFD700;
+      }
+      100% {
+        stop-color: #FF5733;
+      }
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    #title {
+      font-family: Arial, sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      fill: url(#gradient);
+      animation: fadeIn 2s ease-in-out;
+    }
+    
+    #subtitle {
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      fill: #FFFFFF;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+    
+    #stop1, #stop2 {
+      animation: gradientAnimation 4s ease-in-out infinite alternate;
+    }
+    
+    .gear {
+      animation: rotate 10s linear infinite;
+      transform-origin: center;
+    }
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop id="stop1" offset="0%" stop-color="#FF5733" />
+      <stop id="stop2" offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#0D1117" />
+  
+  <!-- Gear shapes for mechatronics theme -->
+  <circle class="gear" cx="100" cy="100" r="40" stroke="#FF5733" stroke-width="10" fill="none" />
+  <circle class="gear" cx="700" cy="100" r="40" stroke="#FFD700" stroke-width="10" fill="none" />
+  
+  <path class="gear" d="M100,50 L100,30 M100,150 L100,170 M50,100 L30,100 M150,100 L170,100 M64.6,64.6 L50,50 M135.4,64.6 L150,50 M64.6,135.4 L50,150 M135.4,135.4 L150,150" stroke="#FF5733" stroke-width="5" />
+  
+  <path class="gear" d="M700,50 L700,30 M700,150 L700,170 M650,100 L630,100 M750,100 L770,100 M664.6,64.6 L650,50 M735.4,64.6 L750,50 M664.6,135.4 L650,150 M735.4,135.4 L750,150" stroke="#FFD700" stroke-width="5" />
+  
+  <!-- Binary digital rain effect -->
+  <text x="200" y="30" font-family="monospace" font-size="10" fill="#3D7E9A" opacity="0.5">01100101 01101001 01101110 01110011 01110100 01100101 01101001 01101110</text>
+  <text x="220" y="45" font-family="monospace" font-size="10" fill="#3D7E9A" opacity="0.3">10100101 01101110 01100111 01101001 01101110 01100101 01100101 01110010</text>
+  <text x="240" y="60" font-family="monospace" font-size="10" fill="#3D7E9A" opacity="0.7">01100100 01100101 01110110 01100101 01101100 01101111 01110000 01100101</text>
+  
+  <!-- Main Text -->
+  <text id="title" x="400" y="100" text-anchor="middle">Einstein's Universe</text>
+  <text id="subtitle" x="400" y="140" text-anchor="middle">Software &amp; Mechatronics Engineer</text>
+</svg>

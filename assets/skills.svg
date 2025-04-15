@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fillBar {
+      from {
+        width: 0;
+      }
+      to {
+        width: attr(data-percentage);
+      }
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    
+    .skill-icon {
+      animation: pulse 3s infinite ease-in-out;
+    }
+    
+    .skill-python {
+      animation-delay: 0s;
+    }
+    
+    .skill-js {
+      animation-delay: 0.5s;
+    }
+    
+    .skill-django {
+      animation-delay: 1s;
+    }
+    
+    .skill-react {
+      animation-delay: 1.5s;
+    }
+    
+    .skill-next {
+      animation-delay: 2s;
+    }
+    
+    .skill-flask {
+      animation-delay: 2.5s;
+    }
+    
+    .bar-bg {
+      fill: #2A2A2A;
+      rx: 10;
+      ry: 10;
+    }
+    
+    .bar-fill {
+      fill: url(#gradient);
+      rx: 10;
+      ry: 10;
+      animation: fillBar 1.5s ease-out forwards;
+    }
+    
+    .skill-text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      fill: white;
+    }
+    
+    .percentage-text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: white;
+      text-anchor: end;
+    }
+  </style>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5733" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#0D1117" />
+  
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Skills Proficiency</text>
+  
+  <!-- Python -->
+  <g transform="translate(0, 70)">
+    <text x="150" y="20" class="skill-text">Python</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="360" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">90%</text>
+    <circle cx="120" cy="20" r="20" fill="#3776AB" class="skill-icon skill-python" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Py</text>
+  </g>
+  
+  <!-- JavaScript -->
+  <g transform="translate(0, 120)">
+    <text x="150" y="20" class="skill-text">JavaScript</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="340" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">85%</text>
+    <circle cx="120" cy="20" r="20" fill="#F7DF1E" class="skill-icon skill-js" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="black" text-anchor="middle">JS</text>
+  </g>
+  
+  <!-- Django -->
+  <g transform="translate(0, 170)">
+    <text x="150" y="20" class="skill-text">Django</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="360" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">90%</text>
+    <circle cx="120" cy="20" r="20" fill="#092E20" class="skill-icon skill-django" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="white" text-anchor="middle">DJ</text>
+  </g>
+  
+  <!-- React -->
+  <g transform="translate(0, 220)">
+    <text x="150" y="20" class="skill-text">React.js</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="340" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">85%</text>
+    <circle cx="120" cy="20" r="20" fill="#61DAFB" class="skill-icon skill-react" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="black" text-anchor="middle">R</text>
+  </g>
+  
+  <!-- Next.js -->
+  <g transform="translate(0, 270)">
+    <text x="150" y="20" class="skill-text">Next.js</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="320" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">80%</text>
+    <circle cx="120" cy="20" r="20" fill="#000000" class="skill-icon skill-next" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="white" text-anchor="middle">N</text>
+  </g>
+  
+  <!-- Flask -->
+  <g transform="translate(0, 320)">
+    <text x="150" y="20" class="skill-text">Flask</text>
+    <rect x="250" y="10" width="400" height="20" class="bar-bg" />
+    <rect x="250" y="10" width="300" height="20" class="bar-fill" />
+    <text x="670" y="25" class="percentage-text">75%</text>
+    <circle cx="120" cy="20" r="20" fill="#000000" class="skill-icon skill-flask" />
+    <text x="120" y="25" font-family="Arial" font-size="10" fill="white" text-anchor="middle">FL</text>
+  </g>
+</svg>
